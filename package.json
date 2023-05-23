@@ -1,0 +1,12 @@
+{
+  "name": "10-Logo Maker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"},
+  "devDependencies": {
+    "jest": "24.9.0",
+    "inquirer": "^8.2.4"
+  }
+}
