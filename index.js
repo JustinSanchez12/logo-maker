@@ -14,7 +14,7 @@ const promptUser = () => {
         },
         {
             type: 'input',
-            name: 'text-colors',
+            name: 'text_colors',
             message: 'Please enter color or hexadecimal number for text: '
         },
         {
@@ -25,12 +25,17 @@ const promptUser = () => {
         },
         {
             type: 'input',
-            name: 'shape-colors',
+            name: 'shape_colors',
             message: 'Please enter color or hexadecimal number for shape: '
         }
     ]);
 };
 
+//Placeholder until generate the svg file
+promptUser();
+
+// TODO: Generate the SVG file called 'logo.svg'
+/*
 const init = () => {
     promptUser()
         .then((answers) => writeFile('logo.svg', generateSVG(answers)))
@@ -38,5 +43,5 @@ const init = () => {
         .catch((err) => console.log(err));
 };
 
-init();
+init();*/
 
