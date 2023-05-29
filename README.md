@@ -23,3 +23,4 @@ After the user inputs the answers for the questions, the terminal will say "gene
 [Live Recording](https://drive.google.com/file/d/1EfMLpg1AVKcq9epXNoA1fxX-QDjMwidH/view)
 
 ## Notes to Grader
+- 5/29: I was able to generate the logo.svg, but the shape would always come out as white so you could only see the text and text color. Also due to time restraint I wasn't able to finish the shape.test.js so I couldn't verify if it would pass. Finally, also due to time restraints I forgot to put a limit on the characters so the user could add more than three characters.  
